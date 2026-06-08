@@ -7,9 +7,9 @@ A complete, premium, enterprise-grade dynamic portfolio system built for **Abhis
 ## Credits
 
 Designed and built as a personal brand portfolio for **Abhishek Kumar**.  
-Portfolio URL: [abhishek.docsansar.com](https://abhishek.docsansar.com)  
-Main Project: [Doc Sansar](https://www.docsansar.com)  
-Contact: [abhishek@docsansar.com](mailto:abhishek@docsansar.com)
+Portfolio URL: [abhishek.docsansar.com](https://abhishek.docsansar.com){:target="_blank"}  
+Main Project: [Doc Sansar](https://www.docsansar.com){:target="_blank"}  
+Contact: [abhishek@docsansar.com](mailto:abhishek@docsansar.com){:target="_blank"}
 
 ---
 
@@ -520,7 +520,7 @@ The editor does NOT save to the file directly (not possible on static hosting). 
 - **Fix:** Add at least one string to `typingTexts` array and ensure `enableTypingAnimation` is `true`
 
 ### Contact Form Not Sending
-- The form uses a **mailto: fallback** — it opens the user's default email client with the message pre-filled. There is no server-side form processing. For server-side email, integrate a service like [Formspree](https://formspree.io) or [EmailJS](https://emailjs.com) and update `form-handler.js`.
+- The form uses a **mailto: fallback** — it opens the user's default email client with the message pre-filled. There is no server-side form processing. For server-side email, integrate a service like [Formspree](https://formspree.io){:target="_blank"} or [EmailJS](https://emailjs.com){:target="_blank"} and update `form-handler.js`.
 
 ---
 
