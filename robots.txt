@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abhishek.docsansar.com/sitemap.xml
+
+# Block admin tools from indexing
+Disallow: /admin/

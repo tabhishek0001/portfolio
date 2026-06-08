@@ -1,0 +1,175 @@
+/* Theme Styles */
+/* ============================================================
+   THEMES.CSS — Light/Dark mode transition & theme utilities
+   ============================================================ */
+
+/* Smooth theme transition on all elements */
+body,
+body *,
+body *::before,
+body *::after {
+  transition-property: background-color, border-color, color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Exclude elements that should NOT transition (animations, transforms) */
+body .hero-badge,
+body .btn,
+body .card,
+body .project-card,
+body .stat-card,
+body .filter-btn,
+body .nav-link,
+body #back-to-top {
+  transition-property: background-color, border-color, color, box-shadow, transform, opacity;
+}
+
+/* ── DARK THEME SPECIFIC ─────────────────────────────────────── */
+[data-theme="dark"] .hero-grid {
+  background-image:
+    linear-gradient(rgba(37, 99, 235, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 99, 235, 0.05) 1px, transparent 1px);
+}
+
+[data-theme="dark"] .dev-card {
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+[data-theme="dark"] .code-card {
+  background: #010b1a;
+}
+
+[data-theme="dark"] #navbar.scrolled {
+  background: rgba(2, 8, 23, 0.85);
+}
+
+[data-theme="dark"] .stat-card:hover {
+  box-shadow: 0 0 30px rgba(37, 99, 235, 0.2), 0 10px 40px rgba(0,0,0,0.5);
+}
+
+[data-theme="dark"] .project-card:hover {
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6), 0 0 0 1px rgba(37,99,235,0.2);
+}
+
+/* ── LIGHT THEME SPECIFIC ────────────────────────────────────── */
+[data-theme="light"] .hero-grid {
+  background-image:
+    linear-gradient(rgba(37, 99, 235, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 99, 235, 0.06) 1px, transparent 1px);
+}
+
+[data-theme="light"] .hero-glow-1 {
+  background: radial-gradient(circle, rgba(37, 99, 235, 0.08) 0%, transparent 70%);
+}
+
+[data-theme="light"] .hero-glow-2 {
+  background: radial-gradient(circle, rgba(6, 182, 212, 0.06) 0%, transparent 70%);
+}
+
+[data-theme="light"] #navbar.scrolled {
+  background: rgba(248, 250, 252, 0.9);
+  box-shadow: 0 1px 20px rgba(0,0,0,0.08);
+}
+
+[data-theme="light"] .dev-card {
+  box-shadow: 0 20px 60px rgba(0,0,0,0.08), inset 0 1px 0 rgba(255,255,255,0.8);
+}
+
+[data-theme="light"] .code-card {
+  background: #0f172a;
+  border-color: rgba(37, 99, 235, 0.15);
+}
+
+[data-theme="light"] .timeline::before {
+  background: linear-gradient(to bottom, var(--clr-primary), var(--clr-accent), rgba(37,99,235,0.1));
+}
+
+[data-theme="light"] .timeline-dot {
+  border-color: var(--bg-base);
+}
+
+[data-theme="light"] .objective-card::before {
+  color: rgba(37, 99, 235, 0.05);
+}
+
+[data-theme="light"] .stat-card:hover {
+  box-shadow: 0 10px 40px rgba(37, 99, 235, 0.12);
+}
+
+[data-theme="light"] .project-card:hover {
+  box-shadow: 0 12px 40px rgba(0,0,0,0.1), 0 0 0 1px rgba(37,99,235,0.15);
+}
+
+[data-theme="light"] .badge-blue { background: rgba(37, 99, 235, 0.08); color: #1d4ed8; border-color: rgba(37,99,235,0.2); }
+[data-theme="light"] .badge-cyan { background: rgba(6, 182, 212, 0.08); color: #0e7490; border-color: rgba(6,182,212,0.2); }
+[data-theme="light"] .badge-green { background: rgba(16, 185, 129, 0.08); color: #059669; border-color: rgba(16,185,129,0.2); }
+[data-theme="light"] .badge-yellow { background: rgba(245, 158, 11, 0.08); color: #b45309; border-color: rgba(245,158,11,0.2); }
+
+[data-theme="light"] .level-experienced { background: rgba(37,99,235,0.08); color: #1d4ed8; border-color: rgba(37,99,235,0.2); }
+[data-theme="light"] .level-comfortable  { background: rgba(6,182,212,0.08); color: #0e7490; border-color: rgba(6,182,212,0.2); }
+[data-theme="light"] .level-practicing   { background: rgba(16,185,129,0.08); color: #059669; border-color: rgba(16,185,129,0.2); }
+[data-theme="light"] .level-improving    { background: rgba(245,158,11,0.08); color: #b45309; border-color: rgba(245,158,11,0.2); }
+
+[data-theme="light"] .form-input,
+[data-theme="light"] .form-textarea {
+  background: #f8fafc;
+  border-color: #e2e8f0;
+  color: #0f172a;
+}
+
+[data-theme="light"] .project-search {
+  background: #f8fafc;
+  border-color: #e2e8f0;
+  color: #0f172a;
+}
+
+[data-theme="light"] ::-webkit-scrollbar-track { background: #f1f5f9; }
+
+/* ── THEME TOGGLE BUTTON STATES ──────────────────────────────── */
+.theme-icon-moon,
+.theme-icon-sun {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  transition: opacity 0.2s, transform 0.3s;
+}
+
+[data-theme="dark"] .theme-icon-moon { opacity: 1; transform: rotate(0deg); }
+[data-theme="dark"] .theme-icon-sun  { opacity: 0; transform: rotate(90deg); }
+[data-theme="light"] .theme-icon-sun  { opacity: 1; transform: rotate(0deg); }
+[data-theme="light"] .theme-icon-moon { opacity: 0; transform: rotate(-90deg); }
+
+.btn-theme-toggle { position: relative; }
+
+/* ── GLOW ACCENTS ────────────────────────────────────────────── */
+.glow-primary {
+  box-shadow: 0 0 20px rgba(37, 99, 235, 0.4);
+}
+
+.glow-accent {
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.4);
+}
+
+/* ── GLASSMORPHISM CARDS (optional utility) ──────────────────── */
+.glass-card {
+  background: var(--bg-glass);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-color);
+}
+
+/* ── GRADIENT TEXT UTILITIES ─────────────────────────────────── */
+.gradient-text {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-accent {
+  background: linear-gradient(135deg, #06b6d4, #22d3ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Content Editor — Abhishek Kumar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="content-editor.css" />
+</head>
+<body>
+
+  <div class="editor-layout">
+
+    <!-- ── SIDEBAR ─────────────────────────────────────────────── -->
+    <aside class="editor-sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-logo">AK</div>
+        <div>
+          <div class="brand-name">Content Editor</div>
+          <div class="brand-sub">portfolio-data.json</div>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section-title">Quick Edit</div>
+        <button class="sidebar-btn active" data-panel="json">
+          <span class="btn-icon">{ }</span> Full JSON Editor
+        </button>
+        <button class="sidebar-btn" data-panel="personal">
+          <span class="btn-icon">👤</span> Personal Info
+        </button>
+        <button class="sidebar-btn" data-panel="theme">
+          <span class="btn-icon">🎨</span> Theme & Colors
+        </button>
+        <button class="sidebar-btn" data-panel="sections">
+          <span class="btn-icon">👁</span> Section Visibility
+        </button>
+        <button class="sidebar-btn" data-panel="stats">
+          <span class="btn-icon">📊</span> Stats & Numbers
+        </button>
+        <button class="sidebar-btn" data-panel="projects">
+          <span class="btn-icon">📁</span> Projects
+        </button>
+        <button class="sidebar-btn" data-panel="skills">
+          <span class="btn-icon">⚡</span> Skills
+        </button>
+        <button class="sidebar-btn" data-panel="help">
+          <span class="btn-icon">📖</span> How To Use
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="status-indicator" id="json-status">
+          <span class="status-dot"></span> Ready
+        </div>
+      </div>
+    </aside>
+
+    <!-- ── MAIN EDITOR AREA ─────────────────────────────────────── -->
+    <main class="editor-main">
+
+      <!-- ── TOOLBAR ──────────────────────────────────────────── -->
+      <div class="editor-toolbar">
+        <div class="toolbar-left">
+          <h1 class="toolbar-title" id="panel-title">Full JSON Editor</h1>
+          <span class="toolbar-path">../data/portfolio-data.json</span>
+        </div>
+        <div class="toolbar-actions">
+          <button class="tool-btn" id="btn-format" title="Format / Beautify JSON">
+            ✨ Format
+          </button>
+          <button class="tool-btn" id="btn-minify" title="Minify JSON">
+            📦 Minify
+          </button>
+          <button class="tool-btn warning" id="btn-reset" title="Reset to original sample data">
+            🔄 Reset
+          </button>
+          <button class="tool-btn primary" id="btn-download" title="Download updated JSON file">
+            ⬇ Download JSON
+          </button>
+        </div>
+      </div>
+
+      <!-- ── PANELS ────────────────────────────────────────────── -->
+
+      <!-- JSON Editor Panel -->
+      <div class="editor-panel active" id="panel-json">
+        <div class="editor-info-bar">
+          <span id="json-char-count">0 characters</span>
+          <span id="json-error-msg" class="error-msg"></span>
+        </div>
+        <textarea
+          id="json-editor"
+          class="json-textarea"
+          spellcheck="false"
+          autocomplete="off"
+          autocorrect="off"
+          autocapitalize="off"
+          placeholder="Your portfolio-data.json content will appear here..."
+          aria-label="JSON Editor"
+        ></textarea>
+      </div>
+
+      <!-- Personal Info Panel -->
+      <div class="editor-panel" id="panel-personal">
+        <div class="quick-form">
+          <h2 class="panel-section-title">Personal Information</h2>
+          <div class="form-grid">
+            <div class="form-group">
+              <label>Full Name</label>
+              <input type="text" id="qe-name" placeholder="Abhishek Kumar" />
+            </div>
+            <div class="form-group">
+              <label>Title / Role</label>
+              <input type="text" id="qe-title" placeholder="Full Stack Web Developer" />
+            </div>
+            <div class="form-group full-width">
+              <label>Main Tagline</label>
+              <input type="text" id="qe-tagline" placeholder="Your tagline here..." />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" id="qe-email" placeholder="abhishek@docsansar.com" />
+            </div>
+            <div class="form-group">
+              <label>Phone</label>
+              <input type="text" id="qe-phone" placeholder="+91 XXXXX XXXXX" />
+            </div>
+            <div class="form-group">
+              <label>Location</label>
+              <input type="text" id="qe-location" placeholder="Bihar, India" />
+            </div>
+            <div class="form-group">
+              <label>LinkedIn URL</label>
+              <input type="url" id="qe-linkedin" placeholder="https://linkedin.com/in/..." />
+            </div>
+            <div class="form-group">
+              <label>Portfolio URL</label>
+              <input type="url" id="qe-portfolio" placeholder="https://abhishek.docsansar.com" />
+            </div>
+            <div class="form-group">
+              <label>Availability Status</label>
+              <input type="text" id="qe-availability" placeholder="Open to Opportunities" />
+            </div>
+            <div class="form-group">
+              <label>Resume Path</label>
+              <input type="text" id="qe-resume" placeholder="assets/documents/Abhishek-Kumar-Resume.pdf" />
+            </div>
+            <div class="form-group full-width">
+              <label>Short Bio / Introduction</label>
+              <textarea id="qe-bio" rows="5" placeholder="Your short intro..."></textarea>
+            </div>
+          </div>
+          <button class="tool-btn primary" id="btn-apply-personal">Apply Changes to JSON →</button>
+        </div>
+      </div>
+
+      <!-- Theme Panel -->
+      <div class="editor-panel" id="panel-theme">
+        <div class="quick-form">
+          <h2 class="panel-section-title">Theme & Colors</h2>
+          <div class="form-grid">
+            <div class="form-group">
+              <label>Default Mode</label>
+              <select id="qe-mode">
+                <option value="dark">Dark Mode</option>
+                <option value="light">Light Mode</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Allow Toggle</label>
+              <select id="qe-allow-toggle">
+                <option value="true">Yes — show toggle button</option>
+                <option value="false">No — fixed mode</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Primary Color</label>
+              <div class="color-input-wrap">
+                <input type="color" id="qe-primary-picker" value="#2563eb" />
+                <input type="text" id="qe-primary" placeholder="#2563eb" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Accent Color</label>
+              <div class="color-input-wrap">
+                <input type="color" id="qe-accent-picker" value="#06b6d4" />
+                <input type="text" id="qe-accent" placeholder="#06b6d4" />
+              </div>
+            </div>
+          </div>
+          <div class="color-preview" id="color-preview">
+            <div class="cp-primary">Primary Color</div>
+            <div class="cp-accent">Accent Color</div>
+          </div>
+          <button class="tool-btn primary" id="btn-apply-theme">Apply Theme Changes →</button>
+        </div>
+      </div>
+
+      <!-- Section Visibility Panel -->
+      <div class="editor-panel" id="panel-sections">
+        <div class="quick-form">
+          <h2 class="panel-section-title">Section Visibility</h2>
+          <p class="panel-hint">Toggle sections on or off. Click "Apply" to write changes to the JSON editor.</p>
+          <div class="toggle-grid" id="section-toggles">
+            <!-- Rendered by JS -->
+          </div>
+          <button class="tool-btn primary" id="btn-apply-sections">Apply Visibility Changes →</button>
+        </div>
+      </div>
+
+      <!-- Stats Panel -->
+      <div class="editor-panel" id="panel-stats">
+        <div class="quick-form">
+          <h2 class="panel-section-title">Stats & Numbers</h2>
+          <p class="panel-hint">Edit key stats. Add or remove stat objects in the Full JSON Editor for more control.</p>
+          <div id="stats-editor-list">
+            <!-- Rendered by JS -->
+          </div>
+          <button class="tool-btn secondary" id="btn-add-stat">+ Add Stat</button>
+          <button class="tool-btn primary" id="btn-apply-stats" style="margin-top:1rem;">Apply Stats Changes →</button>
+        </div>
+      </div>
+
+      <!-- Projects Panel -->
+      <div class="editor-panel" id="panel-projects">
+        <div class="quick-form">
+          <h2 class="panel-section-title">Projects</h2>
+          <p class="panel-hint">Quick overview of current projects. Edit full details in the JSON Editor.</p>
+          <div id="projects-editor-list">
+            <!-- Rendered by JS -->
+          </div>
+          <div class="panel-note">
+            💡 To add a new project, use the JSON Editor and add a new object to <code>sections.projects.items</code>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills Panel -->
+      <div class="editor-panel" id="panel-skills">
+        <div class="quick-form">
+          <h2 class="panel-section-title">Skills</h2>
+          <p class="panel-hint">View current skill categories. Edit in JSON Editor for full control.</p>
+          <div id="skills-editor-list">
+            <!-- Rendered by JS -->
+          </div>
+          <div class="panel-note">
+            💡 To add a new skill, find the category in <code>sections.skills.categories</code> and add it to the <code>skills</code> array.
+          </div>
+        </div>
+      </div>
+
+      <!-- Help Panel -->
+      <div class="editor-panel" id="panel-help">
+        <div class="quick-form">
+          <h2 class="panel-section-title">How To Use This Editor</h2>
+          <div class="help-content">
+
+            <div class="help-step">
+              <div class="step-num">1</div>
+              <div>
+                <strong>Load Your JSON</strong>
+                <p>This editor automatically tries to load your current <code>data/portfolio-data.json</code>. If it fails (e.g., you opened this file directly), paste your JSON into the Full JSON Editor manually.</p>
+              </div>
+            </div>
+
+            <div class="help-step">
+              <div class="step-num">2</div>
+              <div>
+                <strong>Edit Content</strong>
+                <p>Use the Quick Edit panels (left sidebar) for common changes, or use the Full JSON Editor for complete control over all content.</p>
+              </div>
+            </div>
+
+            <div class="help-step">
+              <div class="step-num">3</div>
+              <div>
+                <strong>Validate JSON</strong>
+                <p>The editor automatically validates your JSON. Errors are shown in the red bar above the editor. Always fix errors before downloading.</p>
+              </div>
+            </div>
+
+            <div class="help-step">
+              <div class="step-num">4</div>
+              <div>
+                <strong>Download Updated File</strong>
+                <p>Click <strong>⬇ Download JSON</strong> to download the updated <code>portfolio-data.json</code> file.</p>
+              </div>
+            </div>
+
+            <div class="help-step">
+              <div class="step-num">5</div>
+              <div>
+                <strong>Replace the File</strong>
+                <p>Upload the downloaded file to your hosting under <code>data/portfolio-data.json</code>, replacing the old file. Your portfolio will reflect all changes automatically.</p>
+              </div>
+            </div>
+
+            <hr class="help-divider" />
+
+            <h3>Common Tasks</h3>
+
+            <div class="help-task">
+              <strong>Add a new project:</strong>
+              <p>In the JSON Editor, find <code>sections.projects.items</code> and add a new project object following the same structure as existing projects.</p>
+            </div>
+
+            <div class="help-task">
+              <strong>Hide a section:</strong>
+              <p>Use the Section Visibility panel, or find the section in JSON and set <code>"visible": false</code>.</p>
+            </div>
+
+            <div class="help-task">
+              <strong>Change theme color:</strong>
+              <p>Use the Theme panel, or edit <code>theme.colors.primary</code> and <code>theme.colors.accent</code> in JSON.</p>
+            </div>
+
+            <div class="help-task">
+              <strong>Update resume path:</strong>
+              <p>Edit <code>site.resumePath</code> and <code>sections.resume.resumePath</code> in JSON.</p>
+            </div>
+
+            <div class="help-task">
+              <strong>Add a certification:</strong>
+              <p>Find <code>sections.certifications.items</code> and add a new object with <code>id</code>, <code>title</code>, <code>issuer</code>, <code>category</code>, <code>description</code>, <code>visible: true</code>.</p>
+            </div>
+
+            <div class="help-task">
+              <strong>Add a social link:</strong>
+              <p>Find <code>socialLinks</code> array and add <code>{ "id": "...", "label": "...", "url": "...", "icon": "...", "visible": true }</code>.</p>
+            </div>
+
+            <div class="help-task">
+              <strong>Change typing animation texts:</strong>
+              <p>Edit <code>personal.typingTexts</code> array. Each string is shown in the hero typing animation.</p>
+            </div>
+
+            <hr class="help-divider" />
+
+            <h3>Local Testing Note</h3>
+            <div class="help-note">
+              ⚠️ Opening <code>index.html</code> directly in a browser may block JSON loading due to browser security restrictions (CORS). Always use a local server when testing locally:<br><br>
+              • <strong>VS Code:</strong> Right-click index.html → Open with Live Server<br>
+              • <strong>Node.js:</strong> <code>npx serve .</code> in the portfolio folder<br>
+              • <strong>Python:</strong> <code>python -m http.server 8000</code>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <script src="content-editor.js"></script>
+</body>
+</html>
