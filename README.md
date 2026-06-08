@@ -9,7 +9,7 @@ A complete, premium, enterprise-grade dynamic portfolio system built for **Abhis
 Designed and built as a personal brand portfolio for **Abhishek Kumar**.  
 Portfolio URL: [abhishek.docsansar.com](https://abhishek.docsansar.com){:target="_blank"}  
 Main Project: [Doc Sansar](https://www.docsansar.com){:target="_blank"}  
-Contact: [abhishek@docsansar.com](mailto:abhishek@docsansar.com){:target="_blank"}
+Contact: [abhishek@docsansar.com](mailto:abhishek@docsansar.com)
 
 ---
 
