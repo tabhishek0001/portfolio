@@ -29,7 +29,7 @@ Contact: [abhishek@docsansar.com](mailto:abhishek@docsansar.com)
 - **SEO Ready** — dynamic meta tags, Open Graph, Twitter Card, JSON-LD schema
 - **Accessible** — semantic HTML5, ARIA labels, keyboard navigation, focus states
 - **Performance** — lazy-loaded images, debounced search, no heavy dependencies
-- **Optional Content Editor** — visual JSON editor in `admin-optional/`
+- **Optional Content Editor** — visual JSON editor in `admin/`
 - **Hostinger / cPanel Ready** — pure static files, no backend needed
 
 ---
@@ -78,8 +78,8 @@ portfolio/
 │   │
 │   └── icons/
 │
-└── admin-optional/
-    ├── content-editor.html       ← Visual JSON editor tool
+└── admin/
+    ├── index.html       ← Visual JSON editor tool
     ├── content-editor.css
     └── content-editor.js
 ```
@@ -108,7 +108,7 @@ If JSON fails to load, a friendly error message guides the user on how to fix it
 **Only edit `data/portfolio-data.json`.** The website reflects all changes automatically.
 
 ### Using the Optional Content Editor
-Open `admin-optional/content-editor.html` in your browser (via a local server). It provides:
+Open `admin/` in your browser (via a local server). It provides:
 - Full JSON editor with live validation
 - Quick edit panels for personal info, theme, section visibility, stats, projects
 - Format / Minify JSON buttons
@@ -471,19 +471,19 @@ php -S localhost:8000
    │   ├── js/
    │   ├── images/
    │   └── documents/
-   └── admin-optional/   ← optional, can be omitted from live hosting
+   └── admin/   ← optional, can be omitted from live hosting
    ```
 5. Make sure `portfolio-data.json` is uploaded to the `data/` folder
 6. Visit your domain — the portfolio loads dynamically
 
-**Important:** Do NOT upload the `admin-optional/` folder to your live hosting unless you want it accessible. It is a local development tool only.
+**Important:** Do NOT upload the `admin/` folder to your live hosting unless you want it accessible. It is a local development tool only.
 
 ---
 
 ## How to Use the Optional Content Editor
 
 1. Make sure you are running a local server (see above)
-2. Open `http://localhost:PORT/admin-optional/content-editor.html`
+2. Open `http://localhost:PORT/admin/`
 3. The editor will auto-load your current `portfolio-data.json`
 4. Use the sidebar panels to make quick edits, or edit the raw JSON directly
 5. Click **⬇ Download JSON** to download the updated file
@@ -587,7 +587,7 @@ Then reference it as `"icon": "my-icon"` in JSON.
 | `assets/js/filters.js` | Project filter tabs and search |
 | `assets/js/form-handler.js` | Contact form validation and copy buttons |
 | `assets/js/theme-manager.js` | Dark/light mode toggle and persistence |
-| `admin-optional/content-editor.html` | Visual JSON editor (local use only) |
+| `admin/index.html` | Visual JSON editor (local use only) |
 | `robots.txt` | Search engine crawl directives |
 | `sitemap.xml` | XML sitemap for SEO indexing |
 
