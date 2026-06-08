@@ -4,6 +4,15 @@ A complete, premium, enterprise-grade dynamic portfolio system built for **Abhis
 
 ---
 
+## Credits
+
+Designed and built as a personal brand portfolio for **Abhishek Kumar**.  
+Portfolio URL: [abhishek.docsansar.com](https://abhishek.docsansar.com)  
+Main Project: [Doc Sansar](https://www.docsansar.com)  
+Contact: [abhishek@docsansar.com](mailto:abhishek@docsansar.com)
+
+---
+
 ## Features
 
 - **100% Dynamic** — all content driven from `data/portfolio-data.json`
@@ -581,15 +590,6 @@ Then reference it as `"icon": "my-icon"` in JSON.
 | `admin-optional/content-editor.html` | Visual JSON editor (local use only) |
 | `robots.txt` | Search engine crawl directives |
 | `sitemap.xml` | XML sitemap for SEO indexing |
-
----
-
-## Credits
-
-Designed and built as a personal brand portfolio for **Abhishek Kumar**.  
-Portfolio URL: [abhishek.docsansar.com](https://abhishek.docsansar.com)  
-Main Project: [Doc Sansar](https://www.docsansar.com)  
-Contact: [abhishek@docsansar.com](mailto:abhishek@docsansar.com)
 
 ---
 
