@@ -1140,8 +1140,8 @@
           "issuer": "SAP",
           "category": "Cloud / Backend",
           "date": "",
-          "credentialLink": "",
-          "image": "",
+          "credentialLink": "https://www.credly.com/badges/cc002cf8-c5e2-43b6-bce8-5d0941ab2035",
+          "image": "https://images.credly.com/size/680x680/images/5489be1c-ce49-4cf3-8b24-eee50e5259be/blob",
           "description": "Certification covering SAP ABAP Cloud development and backend systems.",
           "visible": true
         },
