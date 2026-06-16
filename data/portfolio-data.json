@@ -3,42 +3,40 @@
     "name": "Abhishek Kumar",
     "url": "https://abhishek.docsansar.com",
     "language": "en",
-    "version": "1.1.0",
-    "lastUpdated": "2026-06-16",
+    "version": "1.0.0",
+    "lastUpdated": "2025-01-01",
     "resumePath": "assets/documents/Abhishek-Kumar-Resume.pdf",
     "favicon": "assets/images/favicon.png",
-    "ogImage": "https://abhishek.docsansar.com/assets/images/og-image.png"
+    "ogImage": "assets/images/og-image.png"
   },
   "seo": {
-    "title": "Abhishek Kumar | Full Stack Web Developer",
-    "description": "Portfolio of Abhishek Kumar, a Full Stack Web Developer building real-world, scalable, and user-friendly web applications.",
+    "title": "Abhishek Kumar | Full Stack Web Developer Portfolio",
+    "description": "Portfolio of Abhishek Kumar, a Full Stack Web Developer building real-world, scalable, and user-friendly web applications using PHP, MySQL, Java, HTML, CSS, Bootstrap, jQuery, AJAX, and modern development practices.",
     "keywords": [
       "Abhishek Kumar",
       "Full Stack Web Developer",
       "Web Developer Portfolio",
       "PHP Developer",
       "MySQL Developer",
-      "React Developer",
       "Doc Sansar",
       "Student Developer",
       "Portfolio India",
       "Full Stack Web Developer Bihar",
-      "Web Developer India",
-      "GitHub Portfolio"
+      "Web Developer India"
     ],
     "author": "Abhishek Kumar",
     "openGraph": {
       "title": "Abhishek Kumar | Full Stack Web Developer",
-      "description": "Portfolio of Abhishek Kumar, a Full Stack Web Developer building real-world, scalable, and user-friendly web applications.",
-      "image": "https://abhishek.docsansar.com/assets/images/og-image.png",
+      "description": "Full Stack Web Developer building real-world web applications that are useful, scalable, and user-friendly.",
+      "image": "assets/images/og-image.png",
       "url": "https://abhishek.docsansar.com",
       "type": "website"
     },
     "twitter": {
       "card": "summary_large_image",
       "title": "Abhishek Kumar | Full Stack Web Developer",
-      "description": "Portfolio of Abhishek Kumar, a Full Stack Web Developer building real-world, scalable, and user-friendly web applications.",
-      "image": "https://abhishek.docsansar.com/assets/images/og-image.png"
+      "description": "Full Stack Web Developer building real-world web applications that are useful, scalable, and user-friendly.",
+      "image": "assets/images/og-image.png"
     },
     "schema": {
       "type": "Person",
@@ -53,26 +51,18 @@
       },
       "sameAs": [
         "https://linkedin.com/in/tabhishek0001",
-        "https://www.docsansar.com",
-        "https://github.com/tabhishek0001"
+        "https://www.docsansar.com"
       ],
-      "alumniOf": [
-        "Technocrats Institute of Technology",
-        "Government Polytechnic, Patna-7"
-      ],
+      "alumniOf": "Technocrats Institute of Technology",
       "knowsAbout": [
         "PHP",
         "MySQL",
-        "SQL",
         "HTML",
         "CSS",
         "Bootstrap",
         "jQuery",
         "AJAX",
         "Java",
-        "React",
-        "TypeScript",
-        "Tailwind CSS",
         "Web Development",
         "Full Stack Development"
       ],
@@ -111,8 +101,8 @@
     "title": "Full Stack Web Developer",
     "tagline": "I build real-world web applications that are useful, scalable, and user-friendly.",
     "shortIntro": "A Computer Science Engineering student and Full Stack Web Developer with practical experience in building live web platforms, database-driven systems, and user-focused digital solutions.",
-    "bio": "I am Abhishek Kumar, a Computer Science Engineering student and Full Stack Web Developer who enjoys building real applications that people can actually use. My journey has been shaped by practical learning, self-dependency, and real project experience.\n\nI have worked on platforms like Doc Sansar, where I learned how to handle users, content, databases, UI, verification workflows, and performance in a real environment. I believe in learning by building, improving step by step, and solving practical problems.\n\nCurrently, I am strengthening my programming fundamentals, Java knowledge, and problem-solving skills, while also exploring modern frontend frameworks like React and Tailwind CSS, as I continue to build scalable and useful web applications.",
-    "location": "Bihar / Bhopal, India",
+    "bio": "I am Abhishek Kumar, a Computer Science Engineering student and Full Stack Web Developer who enjoys building real applications that people can actually use. My journey has been shaped by practical learning, self-dependency, and real project experience.\n\nI have worked on platforms like Doc Sansar, where I learned how to handle users, content, databases, UI, verification workflows, and performance in a real environment. I believe in learning by building, improving step by step, and solving practical problems.\n\nCurrently, I am strengthening my programming fundamentals, Java knowledge, and problem-solving skills while continuing to work on real-world web applications.",
+    "location": "Bihar, India",
     "email": "abhishek@docsansar.com",
     "phone": "+91 80512 61929",
     "whatsapp": "+918051261929",
@@ -120,7 +110,7 @@
     "heroImage": "assets/images/hero-illustration.png",
     "status": "Available for Opportunities",
     "availability": "Open to Internship, Placement, Junior Developer Roles, Freelance",
-    "currentFocusShort": "Strengthening Java, DSA & Full Stack",
+    "currentFocusShort": "Strengthening Java & DSA",
     "typingTexts": [
       "Full Stack Web Developer",
       "Practical System Builder",
@@ -136,13 +126,6 @@
       "label": "LinkedIn",
       "url": "https://linkedin.com/in/tabhishek0001",
       "icon": "linkedin",
-      "visible": true
-    },
-    {
-      "id": "github",
-      "label": "GitHub",
-      "url": "https://github.com/tabhishek0001",
-      "icon": "github",
       "visible": true
     },
     {
@@ -395,7 +378,7 @@
       "visible": true,
       "order": 4,
       "title": "Career Objective",
-      "content": "Results-driven Full Stack Web Developer with 3+ years of practical development experience and proven ability to build scalable, user-focused web applications. Developed and managed platforms serving 20K+ yearly users and 3.8L+ yearly events, including an EdTech platform that ranked on Google within 7 days and achieved 10K+ clicks in a month. Seeking an opportunity to contribute practical development experience, problem-solving skills, and a continuous learning mindset toward building impactful software solutions."
+      "content": "Results-driven Full Stack Web Developer with 3+ years of practical development experience and proven ability to build scalable, user-focused web applications. Developed and managed platforms serving 20K+ yearly users and 3.8L+ yearly events, including an EdTech platform that ranked on Google within 7 days and achieved 10K+ clicks in a month. Seeking an opportunity to contribute practical development experience, problem-solving skills, and continuous learning mindset toward building impactful software solutions."
     },
     "stats": {
       "visible": true,
@@ -504,11 +487,6 @@
               "color": "cyan"
             },
             {
-              "name": "SQL",
-              "level": "Comfortable",
-              "color": "cyan"
-            },
-            {
               "name": "Java Core",
               "level": "Improving",
               "color": "yellow"
@@ -559,21 +537,6 @@
               "name": "Responsive UI",
               "level": "Experienced",
               "color": "blue"
-            },
-            {
-              "name": "React",
-              "level": "Learning",
-              "color": "orange"
-            },
-            {
-              "name": "TypeScript",
-              "level": "Learning",
-              "color": "orange"
-            },
-            {
-              "name": "Tailwind CSS",
-              "level": "Practicing",
-              "color": "green"
             }
           ]
         },
@@ -717,11 +680,6 @@
               "name": "Teamwork",
               "level": "Comfortable",
               "color": "cyan"
-            },
-            {
-              "name": "Communication",
-              "level": "Improving",
-              "color": "yellow"
             }
           ]
         }
@@ -750,13 +708,13 @@
           "status": "Current",
           "summary": "Working on real-world web development projects, improving existing systems, building reusable modules, and handling database-driven applications.",
           "responsibilities": [
-            "Build and improve web application modules for client systems",
+            "Build and improve web application modules",
             "Develop reusable and modular code structures",
-            "Work with database-driven systems including Credit System projects",
+            "Work with database-driven systems",
             "Improve performance, maintainability, and user experience",
-            "Handle assigned tasks independently by understanding client and project requirements",
+            "Handle assigned tasks independently",
             "Convert practical requirements into working solutions",
-            "Develop and integrate business features like billing, wallet, ledger, automation, reporting, and admin controls"
+            "Work on business systems like billing, wallet, ledger, automation, reporting, and admin controls"
           ],
           "impact": [
             "Reduced code complexity by combining multiple files into optimized structures",
@@ -810,14 +768,14 @@
           "detailedDescription": "Doc Sansar was built to help students easily find and share study materials. It includes student-friendly features like upload verification, file preview, categorized resources, user accounts, SEO-focused pages, and useful tools. Built entirely by me \u2014 from planning and database design to UI, backend, SEO, and continuous improvement.",
           "features": [
             "User registration and email verification",
-            "Study material upload system with admin verification workflow",
+            "Study material upload system with admin verification",
             "File preview functionality",
-            "Categorized resources with search functionality",
+            "Categorized resources with search",
             "Profile customization",
-            "Useful student tools: QR generator, calculators, converters",
+            "Useful tools: QR generator, age calculator, temperature converter",
             "SEO-focused pages with structured content",
             "Responsive design for all devices",
-            "User contribution system allowing continuous content growth"
+            "User contribution and content verification workflow"
           ],
           "tech": [
             "PHP",
@@ -854,7 +812,7 @@
               "value": "Within 7 Days"
             }
           ],
-          "learning": "This project gave me deep practical understanding of handling real users, SEO growth, content management flow, database management, and continuous platform improvement."
+          "learning": "This project helped me understand real users, SEO, database management, content workflow, performance, and practical development challenges."
         },
         {
           "id": "unclejee-store",
@@ -867,20 +825,20 @@
           ],
           "url": "https://www.unclejeestore.com/",
           "github": "",
-          "status": "Ongoing",
+          "status": "Live",
           "featured": false,
           "role": "Developer",
           "image": "assets/images/projects/unclejee-store-preview.png",
-          "shortDescription": "An e-commerce platform focused on product listing, secure payment integration, and streamlined order handling.",
-          "detailedDescription": "A comprehensive e-commerce solution being developed with a focus on clean product management, secure payment processing via Razorpay, and streamlined order handling with future logistics integration.",
+          "shortDescription": "An e-commerce platform focused on product listing, payment gateway integration, order handling, and scalable logistics support.",
+          "detailedDescription": "A comprehensive e-commerce solution being developed with a focus on clean product management, secure payment processing via Razorpay, and streamlined order handling with logistics integration.",
           "features": [
             "Product management and listing system",
             "Razorpay payment gateway integration",
             "Order management workflow",
             "User-friendly shopping flow",
-            "Admin-side product and operations management",
+            "Admin-side product management",
             "Logistics and shipping planning",
-            "Product detail system with image gallery"
+            "Product detail system with gallery"
           ],
           "tech": [
             "PHP",
@@ -891,7 +849,7 @@
             "Razorpay"
           ],
           "metrics": [],
-          "learning": "Learning real-world e-commerce user flows, critical payment gateway integration, and shipping logistics management."
+          "learning": "Learning real-world e-commerce flows, payment integration, and logistics management."
         },
         {
           "id": "khabai-tech-system",
@@ -902,23 +860,23 @@
             "Enterprise",
             "Web App"
           ],
-          "url": "https://khabaitech.com/",
+          "url": "https://khabaitech.com/hrms/",
           "github": "",
           "status": "Work Experience Project",
           "featured": false,
           "role": "Developer (Part-Time)",
           "image": "assets/images/projects/khabai-tech-system-preview.png",
-          "shortDescription": "A business system developed for managing operations with modules like billing, wallet, ledger, automation, and reporting.",
-          "detailedDescription": "An enterprise-grade business management system containing critical modules developed as part of my part-time role at Khabai Tech. Focused on modular architecture, database-driven operations, and extensive admin controls.",
+          "shortDescription": "A business system developed for managing operations with modules like billing, wallet, ledger, automation, reporting, and admin controls.",
+          "detailedDescription": "An enterprise-grade business management system developed as part of my part-time role at Khabai Tech. Focused on modular architecture, database-driven operations, and clean admin controls.",
           "features": [
             "Billing engine",
             "Wallet and ledger system",
             "Automation features",
             "Dynamic admin controls",
             "Structured database handling",
-            "Charts and reporting analytics with ApexCharts",
+            "Charts and analytics with ApexCharts",
             "Modular backend structure",
-            "Performance-focused code improvements"
+            "Performance-focused improvements"
           ],
           "tech": [
             "PHP",
@@ -929,71 +887,7 @@
             "ApexCharts"
           ],
           "metrics": [],
-          "learning": "Gained practical enterprise development experience, emphasizing modular code design, business logic implementation, and performance optimization."
-        },
-        {
-          "id": "portfolio-project",
-          "name": "Dynamic Developer Portfolio",
-          "slug": "portfolio-project",
-          "type": "Dynamic Web Application",
-          "categories": [
-            "Web App",
-            "Featured"
-          ],
-          "url": "https://abhishek.docsansar.com/",
-          "github": "https://github.com/tabhishek0001/portfolio",
-          "status": "Live",
-          "featured": true,
-          "role": "Developer",
-          "image": "assets/images/projects/portfolio-preview.png",
-          "shortDescription": "A dynamic, JSON-driven developer portfolio featuring dark mode, project filtering, and seamless GitHub Pages deployment.",
-          "detailedDescription": "Created an advanced, dynamic developer portfolio entirely driven by a structured JSON file. It allows for seamless content management without touching the UI code. Built to be highly responsive, SEO optimized, and fully hosted on GitHub Pages with a custom domain.",
-          "features": [
-            "JSON-based dynamic content structure",
-            "Responsive design with Dark/Light mode toggle",
-            "Dynamic project filters and grid system",
-            "Project details modal view",
-            "Contact form with standard fallback",
-            "Automated GitHub deployment setup",
-            "Custom domain integration",
-            "SEO and OG image support for better social sharing",
-            "Dynamic portfolio content management idea"
-          ],
-          "tech": [
-            "HTML5",
-            "CSS3",
-            "JavaScript",
-            "JSON"
-          ],
-          "metrics": [],
-          "learning": "Mastered decoupling content from presentation logic using JSON, and streamlined static site deployments."
-        },
-        {
-          "id": "eduvista",
-          "name": "EduVista (SIH 2025)",
-          "slug": "eduvista",
-          "type": "EdTech Hackathon Project",
-          "categories": [
-            "EdTech"
-          ],
-          "url": "",
-          "github": "",
-          "status": "Planned / Prototype",
-          "featured": false,
-          "role": "Team Member (Team LitEdu)",
-          "image": "assets/images/projects/eduvista-preview.png",
-          "shortDescription": "An innovative project developed with Team LitEdu for the Smart India Hackathon 2025.",
-          "detailedDescription": "Collaborated with Team LitEdu to design and develop the EduVista project for the Smart India Hackathon (SIH) 2025, focusing on providing an innovative technical solution to an educational problem statement.",
-          "features": [
-            "Conceptualized to solve real educational challenges",
-            "Collaborative team development",
-            "Hackathon-oriented rapid prototyping"
-          ],
-          "tech": [
-            "Web Technologies"
-          ],
-          "metrics": [],
-          "learning": "Enhanced teamwork, rapid problem-solving, and building under strict hackathon requirements."
+          "learning": "Gained practical enterprise development experience \u2014 modular design, business logic, and performance optimization."
         },
         {
           "id": "utility-tools",
@@ -1011,13 +905,13 @@
           "role": "Developer",
           "image": "assets/images/projects/utility-tools-preview.png",
           "shortDescription": "A collection of practical web tools: QR generator, calculators, converters, and productivity utilities built for everyday use.",
-          "detailedDescription": "A set of useful, practical web tools designed to help students and users with everyday tasks. Focused on delivering a clean UI, fast performance, and simple usability.",
+          "detailedDescription": "A set of useful, practical web tools designed to help students and users with everyday tasks. Clean UI, fast performance, and simple to use.",
           "features": [
             "QR code generator",
-            "Age and standard calculators",
+            "Age calculator",
             "Temperature converter",
-            "General productivity tools",
-            "Simple, practical, and responsive UI"
+            "Productivity utilities",
+            "Simple and responsive UI"
           ],
           "tech": [
             "HTML",
@@ -1026,7 +920,7 @@
             "PHP"
           ],
           "metrics": [],
-          "learning": "Focused on building highly functional, single-purpose utilities providing immediate value to users."
+          "learning": "Focused on building single-purpose tools with clean UX and practical value."
         }
       ]
     },
@@ -1120,25 +1014,24 @@
         },
         {
           "id": "a6",
-          "title": "Smart India Hackathon 2025 Participant",
-          "description": "Participated in SIH 2025 with Team LitEdu to develop the EduVista educational project.",
-          "icon": "zap",
-          "category": "Competition",
-          "date": "2025"
-        },
-        {
-          "id": "a7",
           "title": "AdSense Revenue from Self-Built Platform",
           "description": "Started earning through Google AdSense from Doc Sansar \u2014 a platform entirely planned, built, and managed by me.",
           "icon": "dollar-sign",
           "category": "Milestone"
         },
         {
-          "id": "a8",
-          "title": "Community Technical Event Engagements",
-          "description": "Actively registered and participated in major community events including Google Cloud Community Day (Bhopal) and DevFest (Patna).",
+          "id": "a7",
+          "title": "GDG DevFest Participation",
+          "description": "Participated in GDG DevFest and other technical events to stay updated with the developer community.",
           "icon": "calendar",
           "category": "Community"
+        },
+        {
+          "id": "a8",
+          "title": "Multiple Internships During Diploma",
+          "description": "Completed internship programs during diploma, gaining exposure to practical development and professional environments.",
+          "icon": "briefcase",
+          "category": "Learning"
         },
         {
           "id": "a9",
@@ -1146,13 +1039,6 @@
           "description": "Doc Sansar now hosts 500+ user-uploaded and verified study materials.",
           "icon": "upload",
           "category": "Platform"
-        },
-        {
-          "id": "a10",
-          "title": "Created Dynamic Open Source Portfolio",
-          "description": "Built and published a dynamic developer portfolio template structured around JSON data and deployed it on GitHub Pages.",
-          "icon": "layout",
-          "category": "Project"
         }
       ]
     },
@@ -1168,24 +1054,13 @@
           "degree": "Bachelor of Technology",
           "branch": "Computer Science Engineering",
           "institute": "Technocrats Institute of Technology",
-          "location": "Bhopal, India",
+          "location": "India",
           "status": "Pursuing",
           "duration": "2023 \u2013 2027",
           "expectedGraduation": "2027",
           "grade": "",
           "icon": "graduation-cap",
           "current": true
-        },
-        {
-          "id": "blis",
-          "degree": "Bachelor of Library & Information Science",
-          "branch": "Information Science",
-          "institute": "",
-          "location": "India",
-          "status": "Completed",
-          "duration": "",
-          "grade": "",
-          "icon": "book-open"
         },
         {
           "id": "diploma",
@@ -1198,17 +1073,6 @@
           "cgpa": "8.63",
           "grade": "CGPA: 8.63",
           "icon": "award"
-        },
-        {
-          "id": "dca",
-          "degree": "Diploma in Computer Applications",
-          "branch": "DCA + Tally + GST",
-          "institute": "Maa Bhawani",
-          "location": "Bihar, India",
-          "status": "Completed",
-          "duration": "2024",
-          "grade": "",
-          "icon": "monitor"
         },
         {
           "id": "intermediate",
@@ -1252,7 +1116,7 @@
           "fullName": "Object-Oriented Programming",
           "icon": "layers",
           "whyILikeIt": "It helps in writing structured, reusable, and maintainable code.",
-          "whereApplied": "I apply OOP concepts while creating modular project logic and organizing code structures."
+          "whereApplied": "I apply OOP concepts while creating modular code and organizing project logic."
         },
         {
           "id": "se",
@@ -1260,7 +1124,7 @@
           "fullName": "Software Engineering",
           "icon": "git-branch",
           "whyILikeIt": "It teaches how to plan, build, test, improve, and maintain software properly.",
-          "whereApplied": "I use this approach while planning features, testing, improving, and maintaining my real-world projects."
+          "whereApplied": "I use this approach while building features, testing them, improving them, and maintaining real projects."
         }
       ]
     },
@@ -1275,7 +1139,7 @@
           "title": "SAP Certified \u2013 Backend Developer (ABAP Cloud Beta)",
           "issuer": "SAP",
           "category": "Cloud / Backend",
-          "date": "2026",
+          "date": "03-06-2026",
           "credentialLink": "https://www.credly.com/badges/cc002cf8-c5e2-43b6-bce8-5d0941ab2035",
           "image": "https://www.docsansar.com/uploads/vault/5fa10ce61bfd/Screenshot_2026-06-16_105358.png",
           "description": "Certification covering SAP ABAP Cloud development and backend systems.",
@@ -1290,28 +1154,6 @@
           "credentialLink": "https://www.credly.com/earner/earned/badge/1ca4b411-98ab-4dc0-8d5d-4913a0f938d8",
           "image": "https://images.credly.com/size/680x680/images/73c08e76-eb9c-4c03-92da-3dad49e99e5a/Getting_Started_With_Artificial_Intelligence_Badge.png",
           "description": "Certifications covering AI fundamentals, Large Language Models, Retrieval-Augmented Generation, and LangChain framework.",
-          "visible": true
-        },
-        {
-          "id": "hackerrank-sql",
-          "title": "SQL (Basic) Certificate",
-          "issuer": "HackerRank",
-          "category": "Database / SQL",
-          "date": "2026",
-          "credentialLink": "",
-          "image": "",
-          "description": "Verification of basic proficiency and understanding of SQL queries and relational database concepts.",
-          "visible": true
-        },
-        {
-          "id": "nptel-java",
-          "title": "Data Structure and Algorithms using Java",
-          "issuer": "NPTEL",
-          "category": "Programming / DSA",
-          "date": "2026",
-          "credentialLink": "",
-          "image": "",
-          "description": "Comprehensive course and certification preparation covering Java programming basics, object-oriented concepts, and core data structures.",
           "visible": true
         },
         {
@@ -1469,12 +1311,12 @@
       "order": 16,
       "title": "How I Work",
       "subtitle": "My approach to building useful software",
-      "mainLine": "I believe the best way to learn technology is by building useful things. My approach is simple: understand the problem, build a practical solution, test it properly, improve it continuously, and scale it.",
+      "mainLine": "I believe the best way to learn technology is by building useful things. My approach is simple: understand the problem, build a practical solution, test it properly, improve it, and scale it.",
       "process": [
         {
           "step": 1,
           "title": "Understand",
-          "description": "Understand the real problem and keep the user in mind before writing a single line of code.",
+          "description": "Understand the real problem before writing a single line of code.",
           "icon": "search"
         },
         {
@@ -1486,7 +1328,7 @@
         {
           "step": 3,
           "title": "Build",
-          "description": "Build a clean, modular, and maintainable practical solution step by step.",
+          "description": "Build a clean, modular, and maintainable solution step by step.",
           "icon": "code-2"
         },
         {
@@ -1498,13 +1340,13 @@
         {
           "step": 5,
           "title": "Improve",
-          "description": "Continuously improve based on real feedback, performance, and user needs.",
+          "description": "Continuously improve based on real feedback, performance, and needs.",
           "icon": "trending-up"
         },
         {
           "step": 6,
           "title": "Scale",
-          "description": "Scale with clean structure when needed \u2014 prefer real-world implementation over only theory.",
+          "description": "Scale with clean structure when needed \u2014 no quick hacks.",
           "icon": "maximize-2"
         }
       ]
@@ -1532,7 +1374,7 @@
         },
         {
           "label": "Practical Learning",
-          "description": "Real understanding comes from building, not just reading. Not cheating or taking shortcuts.",
+          "description": "Real understanding comes from building, not just reading.",
           "icon": "book-open"
         },
         {
@@ -1547,7 +1389,7 @@
         },
         {
           "label": "Responsibility",
-          "description": "I own my work, my outcomes, and my mistakes while staying grounded.",
+          "description": "I own my work, my outcomes, and my mistakes.",
           "icon": "user-check"
         }
       ]
@@ -1561,37 +1403,32 @@
         {
           "title": "Strengthening Java Fundamentals",
           "icon": "coffee",
-          "description": "Building solid Java skills for a stronger programming foundation."
+          "description": "Building solid Java skills for stronger programming foundation."
         },
         {
-          "title": "Improving DSA & Problem-Solving",
+          "title": "Problem Solving & DSA",
           "icon": "brain",
           "description": "Improving algorithmic thinking and data structure proficiency."
         },
         {
-          "title": "Building Better Web Applications",
+          "title": "Better Web Applications",
           "icon": "globe",
           "description": "Building cleaner, more scalable, and user-friendly web applications."
         },
         {
-          "title": "Improving Communication Skills",
+          "title": "Communication Skills",
           "icon": "message-square",
-          "description": "Working to improve spoken English and professional technical communication."
+          "description": "Improving professional and technical communication."
         },
         {
-          "title": "Learning Scalable Development Practices",
+          "title": "Scalable Development Practices",
           "icon": "layers",
-          "description": "Learning architectural patterns, modular structures, and scalability approaches."
+          "description": "Learning architectural patterns and scalability approaches."
         },
         {
-          "title": "Enhancing Doc Sansar & Projects",
+          "title": "Enhancing Doc Sansar",
           "icon": "zap",
-          "description": "Continuously improving Doc Sansar's features, performance, and other practical systems."
-        },
-        {
-          "title": "Preparing for Professional Opportunities",
-          "icon": "briefcase",
-          "description": "Preparing for placements, internships, and full-time professional roles."
+          "description": "Continuously improving Doc Sansar's features, performance, and reach."
         }
       ]
     },
@@ -1627,26 +1464,26 @@
         },
         {
           "year": "2023",
-          "title": "Started B.Tech Journey",
-          "description": "Enrolled in B.Tech CSE at Technocrats Institute of Technology to combine academics with real-world development.",
-          "icon": "graduation-cap"
+          "title": "Hackathon Winner",
+          "description": "Won GDG Patna Mini Web Hackathon competing with student developers.",
+          "icon": "award"
         },
         {
           "year": "2024",
-          "title": "Hackathon Winner & Tech Events",
-          "description": "Won GDG Patna Mini Web Hackathon and registered for major community events like DevFest.",
-          "icon": "award"
+          "title": "Started B.Tech Journey",
+          "description": "Enrolled in B.Tech CSE, continuing to combine academics with real-world development.",
+          "icon": "graduation-cap"
         },
         {
           "year": "2025",
           "title": "Part-Time Developer at Khabai Tech",
-          "description": "Started part-time full stack web development work managing business systems, billing, and databases.",
+          "description": "Started part-time full stack web development work on real business systems.",
           "icon": "building"
         },
         {
           "year": "Now",
-          "title": "Improving & Expanding",
-          "description": "Strengthening Java, DSA, and problem-solving while taking on new systems and projects like EduVista.",
+          "title": "Improving & Building",
+          "description": "Strengthening Java, DSA, full stack skills while continuing to work on real projects.",
           "icon": "rocket"
         }
       ]
@@ -1654,9 +1491,9 @@
     "testimonials": {
       "visible": true,
       "order": 20,
-      "title": "Feedback & Impressions",
+      "title": "Recommendations",
       "subtitle": "Feedback based on projects, learning, and practical work",
-      "placeholder": "Feedback and impressions will be updated regularly.",
+      "placeholder": "Recommendations will be added soon.",
       "items": [
         {
           "name": "Project Mentor",
@@ -1689,11 +1526,11 @@
       ]
     },
     "blog": {
-      "visible": true,
+      "visible": false,
       "order": 21,
       "title": "Technical Insights",
       "subtitle": "Articles and project write-ups coming soon",
-      "placeholder": "Technical articles and project insights are currently being drafted.",
+      "placeholder": "Technical articles and project insights will be added soon.",
       "categories": [
         "Web Development",
         "Projects",
@@ -1702,50 +1539,7 @@
         "Problem Solving",
         "Technology"
       ],
-      "items": [
-        {
-          "id": "blog-1",
-          "title": "How I Built Doc Sansar as a Real Student Platform",
-          "category": "Projects",
-          "status": "Planned",
-          "description": "A deep dive into planning, developing, and launching a platform that serves thousands of students."
-        },
-        {
-          "id": "blog-2",
-          "title": "What I Learned from Building Database-Driven Web Applications",
-          "category": "Web Development",
-          "status": "Draft",
-          "description": "Key takeaways from structuring MySQL databases, handling relations, and writing efficient queries."
-        },
-        {
-          "id": "blog-3",
-          "title": "My Practical Learning Journey from Student to Web Developer",
-          "category": "Learning Journey",
-          "status": "Planned",
-          "description": "How taking the self-learning route and building practical projects changed my approach to coding."
-        },
-        {
-          "id": "blog-4",
-          "title": "Why Practical Projects Matter More Than Only Theory",
-          "category": "Technology",
-          "status": "Draft",
-          "description": "Understanding the gap between theoretical knowledge and real-world system challenges."
-        },
-        {
-          "id": "blog-5",
-          "title": "How I Approach Debugging and Problem Solving",
-          "category": "Problem Solving",
-          "status": "Planned",
-          "description": "My step-by-step method for tracking down errors and fixing logic bugs efficiently."
-        },
-        {
-          "id": "blog-6",
-          "title": "My Current Focus: Java, DSA, and Stronger Fundamentals",
-          "category": "Placement Preparation",
-          "status": "Draft",
-          "description": "Why I am shifting focus towards strengthening my backend fundamentals and algorithmic thinking."
-        }
-      ]
+      "items": []
     },
     "resume": {
       "visible": true,
