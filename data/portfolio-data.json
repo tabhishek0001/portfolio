@@ -1,17 +1,17 @@
 {
   "site": {
     "name": "Abhishek Kumar",
-    "url": "https://abhishek.docsansar.com",
+    "url": "[https://abhishek.docsansar.com](https://abhishek.docsansar.com)",
     "language": "en",
-    "version": "1.0.0",
-    "lastUpdated": "2025-01-01",
+    "version": "1.1.0",
+    "lastUpdated": "2026-06-16",
     "resumePath": "assets/documents/Abhishek-Kumar-Resume.pdf",
     "favicon": "assets/images/favicon.png",
     "ogImage": "assets/images/og-image.png"
   },
   "seo": {
-    "title": "Abhishek Kumar | Full Stack Web Developer Portfolio",
-    "description": "Portfolio of Abhishek Kumar, a Full Stack Web Developer building real-world, scalable, and user-friendly web applications using PHP, MySQL, Java, HTML, CSS, Bootstrap, jQuery, AJAX, and modern development practices.",
+    "title": "Abhishek Kumar | Full Stack Web Developer",
+    "description": "Portfolio of Abhishek Kumar, a Full Stack Web Developer building real-world, scalable, and user-friendly web applications.",
     "keywords": [
       "Abhishek Kumar",
       "Full Stack Web Developer",
@@ -22,27 +22,30 @@
       "Student Developer",
       "Portfolio India",
       "Full Stack Web Developer Bihar",
-      "Web Developer India"
+      "Web Developer India",
+      "GitHub Portfolio",
+      "Frontend",
+      "Backend"
     ],
     "author": "Abhishek Kumar",
     "openGraph": {
       "title": "Abhishek Kumar | Full Stack Web Developer",
-      "description": "Full Stack Web Developer building real-world web applications that are useful, scalable, and user-friendly.",
-      "image": "assets/images/og-image.png",
-      "url": "https://abhishek.docsansar.com",
+      "description": "Portfolio of Abhishek Kumar, a Full Stack Web Developer building real-world, scalable, and user-friendly web applications.",
+      "image": "[https://abhishek.docsansar.com/assets/images/og-image.png](https://abhishek.docsansar.com/assets/images/og-image.png)",
+      "url": "[https://abhishek.docsansar.com/](https://abhishek.docsansar.com/)",
       "type": "website"
     },
     "twitter": {
       "card": "summary_large_image",
       "title": "Abhishek Kumar | Full Stack Web Developer",
-      "description": "Full Stack Web Developer building real-world web applications that are useful, scalable, and user-friendly.",
-      "image": "assets/images/og-image.png"
+      "description": "Portfolio of Abhishek Kumar, a Full Stack Web Developer building real-world, scalable, and user-friendly web applications.",
+      "image": "[https://abhishek.docsansar.com/assets/images/og-image.png](https://abhishek.docsansar.com/assets/images/og-image.png)"
     },
     "schema": {
       "type": "Person",
       "name": "Abhishek Kumar",
       "jobTitle": "Full Stack Web Developer",
-      "url": "https://abhishek.docsansar.com",
+      "url": "[https://abhishek.docsansar.com/](https://abhishek.docsansar.com/)",
       "email": "abhishek@docsansar.com",
       "telephone": "+918051261929",
       "address": {
@@ -50,8 +53,10 @@
         "addressCountry": "IN"
       },
       "sameAs": [
-        "https://linkedin.com/in/tabhishek0001",
-        "https://www.docsansar.com"
+        "[https://linkedin.com/in/tabhishek0001](https://linkedin.com/in/tabhishek0001)",
+        "[https://www.docsansar.com](https://www.docsansar.com)",
+        "[https://github.com/tabhishek0001/portfolio](https://github.com/tabhishek0001/portfolio)",
+        "[https://tabhishek0001.github.io/portfolio/](https://tabhishek0001.github.io/portfolio/)"
       ],
       "alumniOf": "Technocrats Institute of Technology",
       "knowsAbout": [
@@ -63,10 +68,13 @@
         "jQuery",
         "AJAX",
         "Java",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
         "Web Development",
         "Full Stack Development"
       ],
-      "description": "Full Stack Web Developer focused on building real-world web applications, practical systems, useful platforms, and user-friendly digital products."
+      "description": "Full Stack Web Developer focused on real-world web applications that are useful, scalable, and user-friendly."
     }
   },
   "theme": {
@@ -101,7 +109,7 @@
     "title": "Full Stack Web Developer",
     "tagline": "I build real-world web applications that are useful, scalable, and user-friendly.",
     "shortIntro": "A Computer Science Engineering student and Full Stack Web Developer with practical experience in building live web platforms, database-driven systems, and user-focused digital solutions.",
-    "bio": "I am Abhishek Kumar, a Computer Science Engineering student and Full Stack Web Developer who enjoys building real applications that people can actually use. My journey has been shaped by practical learning, self-dependency, and real project experience.\n\nI have worked on platforms like Doc Sansar, where I learned how to handle users, content, databases, UI, verification workflows, and performance in a real environment. I believe in learning by building, improving step by step, and solving practical problems.\n\nCurrently, I am strengthening my programming fundamentals, Java knowledge, and problem-solving skills while continuing to work on real-world web applications.",
+    "bio": "I am Abhishek Kumar, a Full Stack Web Developer and Computer Science Engineering student who enjoys building real applications that people can actually use. My journey has been shaped by practical learning, self-dependency, and hands-on project experience.\n\nI have worked on comprehensive platforms like Doc Sansar, where I learned how to handle real users, structured content, databases, user interfaces, verification workflows, and performance in a live environment. I firmly believe in learning by building, improving step by step, and solving practical problems through clean code.\n\nCurrently, I am strengthening my programming fundamentals, specifically Java and DSA, while continuing to work on real-world web applications, enhancing system architectures, and improving my professional communication skills.",
     "location": "Bihar, India",
     "email": "abhishek@docsansar.com",
     "phone": "+91 80512 61929",
@@ -124,14 +132,21 @@
     {
       "id": "linkedin",
       "label": "LinkedIn",
-      "url": "https://linkedin.com/in/tabhishek0001",
+      "url": "[https://linkedin.com/in/tabhishek0001](https://linkedin.com/in/tabhishek0001)",
       "icon": "linkedin",
+      "visible": true
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "url": "[https://github.com/tabhishek0001](https://www.google.com/search?q=https://github.com/tabhishek0001)",
+      "icon": "github",
       "visible": true
     },
     {
       "id": "docsansar",
       "label": "Doc Sansar",
-      "url": "https://www.docsansar.com",
+      "url": "[https://www.docsansar.com/](https://www.docsansar.com/)",
       "icon": "globe",
       "visible": true
     },
@@ -145,7 +160,7 @@
     {
       "id": "whatsapp",
       "label": "WhatsApp",
-      "url": "https://wa.me/918051261929",
+      "url": "[https://wa.me/918051261929](https://wa.me/918051261929)",
       "icon": "message-circle",
       "visible": true
     }
@@ -208,18 +223,25 @@
       "order": 8
     },
     {
+      "id": "blog",
+      "label": "Insights",
+      "href": "#blog",
+      "visible": true,
+      "order": 9
+    },
+    {
       "id": "resume",
       "label": "Resume",
       "href": "#resume",
       "visible": true,
-      "order": 9
+      "order": 10
     },
     {
       "id": "contact",
       "label": "Contact",
       "href": "#contact",
       "visible": true,
-      "order": 10
+      "order": 11
     }
   ],
   "sections": {
@@ -274,7 +296,7 @@
         },
         {
           "label": "Visit Doc Sansar",
-          "href": "https://www.docsansar.com",
+          "href": "[https://www.docsansar.com/](https://www.docsansar.com/)",
           "style": "accent",
           "icon": "external-link",
           "target": "_blank"
@@ -349,27 +371,27 @@
       "differentiators": [
         {
           "title": "Real Projects, Real Users",
-          "description": "I build and manage live platforms, not just practice projects.",
+          "description": "I build and manage live platforms, not just practice projects. My solutions serve actual user needs.",
           "icon": "globe"
         },
         {
           "title": "User-Focused Development",
-          "description": "I understand how real users interact with web applications.",
+          "description": "I understand how real users interact with web applications and design intuitive flows accordingly.",
           "icon": "users"
         },
         {
           "title": "Live System Experience",
-          "description": "I have hands-on experience handling live systems, content workflows, and databases.",
+          "description": "I have hands-on experience handling live systems, content workflows, databases, and secure access controls.",
           "icon": "server"
         },
         {
           "title": "Step-by-Step Improvement",
-          "description": "I continuously improve systems based on real feedback and needs.",
+          "description": "I continuously iterate and improve systems based on real-world feedback and performance metrics.",
           "icon": "git-branch"
         },
         {
           "title": "Learning by Building",
-          "description": "I combine technical learning with practical implementation every day.",
+          "description": "I combine theoretical fundamentals with practical implementation every day, actively bridging the gap between academics and industry.",
           "icon": "code"
         }
       ]
@@ -378,7 +400,7 @@
       "visible": true,
       "order": 4,
       "title": "Career Objective",
-      "content": "Results-driven Full Stack Web Developer with 3+ years of practical development experience and proven ability to build scalable, user-focused web applications. Developed and managed platforms serving 20K+ yearly users and 3.8L+ yearly events, including an EdTech platform that ranked on Google within 7 days and achieved 10K+ clicks in a month. Seeking an opportunity to contribute practical development experience, problem-solving skills, and continuous learning mindset toward building impactful software solutions."
+      "content": "Results-driven Full Stack Web Developer with 3+ years of practical development experience and a proven ability to build scalable, user-focused web applications. Developed and managed platforms serving 20K+ yearly users and 3.8L+ yearly events, including an EdTech platform that ranked on Google within 7 days and achieved 10K+ clicks in a single month. Seeking an opportunity to contribute practical development experience, problem-solving skills, and a continuous learning mindset toward building impactful software solutions in a professional team environment."
     },
     "stats": {
       "visible": true,
@@ -464,7 +486,7 @@
       "visible": true,
       "order": 6,
       "title": "Skills & Technologies",
-      "subtitle": "What I work with \u2014 honestly labeled by actual proficiency",
+      "subtitle": "What I work with — honestly labeled by actual proficiency",
       "categories": [
         {
           "id": "backend",
@@ -480,6 +502,11 @@
               "name": "MySQL",
               "level": "Experienced",
               "color": "blue"
+            },
+            {
+              "name": "SQL",
+              "level": "Comfortable",
+              "color": "cyan"
             },
             {
               "name": "DBMS",
@@ -537,6 +564,21 @@
               "name": "Responsive UI",
               "level": "Experienced",
               "color": "blue"
+            },
+            {
+              "name": "React",
+              "level": "Learning",
+              "color": "orange"
+            },
+            {
+              "name": "TypeScript",
+              "level": "Learning",
+              "color": "orange"
+            },
+            {
+              "name": "Tailwind CSS",
+              "level": "Learning",
+              "color": "orange"
             }
           ]
         },
@@ -567,6 +609,11 @@
             },
             {
               "name": "Role-Based Access Control",
+              "level": "Comfortable",
+              "color": "cyan"
+            },
+            {
+              "name": "Error Handling",
               "level": "Comfortable",
               "color": "cyan"
             },
@@ -606,6 +653,11 @@
               "name": "REST API Integration",
               "level": "Comfortable",
               "color": "cyan"
+            },
+            {
+              "name": "Basic Third-Party APIs",
+              "level": "Comfortable",
+              "color": "cyan"
             }
           ]
         },
@@ -635,7 +687,7 @@
               "color": "blue"
             },
             {
-              "name": "cPanel / Hosting",
+              "name": "Hosting Panel",
               "level": "Comfortable",
               "color": "cyan"
             },
@@ -643,6 +695,11 @@
               "name": "ApexCharts",
               "level": "Practicing",
               "color": "green"
+            },
+            {
+              "name": "Select2",
+              "level": "Comfortable",
+              "color": "cyan"
             }
           ]
         },
@@ -667,6 +724,26 @@
               "color": "cyan"
             },
             {
+              "name": "Dedicated",
+              "level": "Experienced",
+              "color": "blue"
+            },
+            {
+              "name": "Time Management",
+              "level": "Comfortable",
+              "color": "cyan"
+            },
+            {
+              "name": "Adaptability",
+              "level": "Comfortable",
+              "color": "cyan"
+            },
+            {
+              "name": "Teamwork",
+              "level": "Comfortable",
+              "color": "cyan"
+            },
+            {
               "name": "Self-Learning",
               "level": "Experienced",
               "color": "blue"
@@ -677,9 +754,14 @@
               "color": "blue"
             },
             {
-              "name": "Teamwork",
+              "name": "Calm Under Pressure",
               "level": "Comfortable",
               "color": "cyan"
+            },
+            {
+              "name": "Communication",
+              "level": "Improving",
+              "color": "yellow"
             }
           ]
         }
@@ -703,24 +785,24 @@
           "role": "Part-Time Full Stack Web Developer",
           "company": "Khabai Tech",
           "type": "Part-Time",
-          "duration": "Feb 2025 \u2013 Present",
+          "duration": "Feb 2025 – Present",
           "location": "India / Hybrid",
           "status": "Current",
-          "summary": "Working on real-world web development projects, improving existing systems, building reusable modules, and handling database-driven applications.",
+          "summary": "Working on real-world web development projects, including a Credit System, improving existing systems, building reusable modules, and handling database-driven applications.",
           "responsibilities": [
-            "Build and improve web application modules",
+            "Build and improve web application modules for client project management",
             "Develop reusable and modular code structures",
-            "Work with database-driven systems",
+            "Work with structured, database-driven systems",
             "Improve performance, maintainability, and user experience",
-            "Handle assigned tasks independently",
+            "Understand client/project requirements and handle assigned tasks independently",
             "Convert practical requirements into working solutions",
-            "Work on business systems like billing, wallet, ledger, automation, reporting, and admin controls"
+            "Work on business systems encompassing billing, wallet, ledger, automation, reporting, and admin controls"
           ],
           "impact": [
-            "Reduced code complexity by combining multiple files into optimized structures",
-            "Improved maintainability and reusability of existing systems",
-            "Delivered practical solutions within deadlines",
-            "Gained real-world exposure beyond academics"
+            "Reduced code complexity by combining multiple files into optimized, organized structures",
+            "Significantly improved maintainability and reusability of existing legacy systems",
+            "Delivered practical business solutions and analytics within deadlines",
+            "Gained strong real-world enterprise logic exposure beyond academic curriculum"
           ],
           "tech": [
             "PHP",
@@ -729,6 +811,37 @@
             "jQuery",
             "AJAX",
             "ApexCharts"
+          ]
+        },
+        {
+          "id": "doc-sansar-founder",
+          "role": "Founder & Developer",
+          "company": "Doc Sansar",
+          "type": "Self-Employed",
+          "duration": "2022 – Present",
+          "location": "India",
+          "status": "Current",
+          "summary": "Founded, built, and continuously manage an educational platform providing study materials to thousands of university students.",
+          "responsibilities": [
+            "Architected the entire platform from initial idea to live deployment",
+            "Designed and normalized the MySQL database for scalable content management",
+            "Developed robust backend logic for user registration, verification, and file handling",
+            "Implemented practical SEO strategies to improve organic visibility",
+            "Monitor server performance, security practices, and user feedback for iterative updates"
+          ],
+          "impact": [
+            "Scaled the platform organically to 20K+ yearly users and 1.2K+ registered accounts",
+            "Managed the ingestion and verification of 500+ study materials",
+            "Achieved monetization through Google AdSense on a self-built product"
+          ],
+          "tech": [
+            "PHP",
+            "MySQL",
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "jQuery",
+            "AJAX"
           ]
         }
       ]
@@ -745,7 +858,8 @@
         "E-Commerce",
         "Enterprise",
         "Tools",
-        "Web App"
+        "Web App",
+        "Hackathon"
       ],
       "items": [
         {
@@ -758,24 +872,24 @@
             "Web App",
             "Featured"
           ],
-          "url": "https://www.docsansar.com/",
+          "url": "[https://www.docsansar.com/](https://www.docsansar.com/)",
           "github": "",
           "status": "Live",
           "featured": true,
           "role": "Founder / Full Owner / Developer",
           "image": "assets/images/projects/docsansar-preview.png",
           "shortDescription": "An educational platform where students can access and share study materials like notes, practical files, previous year questions, syllabi, and academic resources.",
-          "detailedDescription": "Doc Sansar was built to help students easily find and share study materials. It includes student-friendly features like upload verification, file preview, categorized resources, user accounts, SEO-focused pages, and useful tools. Built entirely by me \u2014 from planning and database design to UI, backend, SEO, and continuous improvement.",
+          "detailedDescription": "Doc Sansar was built to help students easily find and share study materials. It includes student-friendly features like upload verification, file preview, categorized resources, user accounts, SEO-focused pages, and useful tools. Built entirely by me — from planning and database design to UI, backend, SEO, and continuous improvement.",
           "features": [
-            "User registration and email verification",
+            "User registration and login with email verification",
             "Study material upload system with admin verification",
             "File preview functionality",
-            "Categorized resources with search",
+            "Search and categorized content delivery",
             "Profile customization",
-            "Useful tools: QR generator, age calculator, temperature converter",
+            "Useful student tools (QR generator, calculators)",
             "SEO-focused pages with structured content",
             "Responsive design for all devices",
-            "User contribution and content verification workflow"
+            "Content management flow and user contribution system"
           ],
           "tech": [
             "PHP",
@@ -812,7 +926,7 @@
               "value": "Within 7 Days"
             }
           ],
-          "learning": "This project helped me understand real users, SEO, database management, content workflow, performance, and practical development challenges."
+          "learning": "This project provided profound practical learning. It helped me understand real user interactions, SEO, database management, content workflow, performance optimization, and overcoming live development challenges."
         },
         {
           "id": "unclejee-store",
@@ -823,9 +937,9 @@
             "E-Commerce",
             "Web App"
           ],
-          "url": "https://www.unclejeestore.com/",
+          "url": "[https://www.unclejeestore.com/](https://www.unclejeestore.com/)",
           "github": "",
-          "status": "Live",
+          "status": "Ongoing",
           "featured": false,
           "role": "Developer",
           "image": "assets/images/projects/unclejee-store-preview.png",
@@ -834,11 +948,10 @@
           "features": [
             "Product management and listing system",
             "Razorpay payment gateway integration",
-            "Order management workflow",
+            "Order handling and management workflow",
             "User-friendly shopping flow",
-            "Admin-side product management",
-            "Logistics and shipping planning",
-            "Product detail system with gallery"
+            "Admin-side product and inventory management",
+            "Logistics and shipping planning integration"
           ],
           "tech": [
             "PHP",
@@ -849,7 +962,7 @@
             "Razorpay"
           ],
           "metrics": [],
-          "learning": "Learning real-world e-commerce flows, payment integration, and logistics management."
+          "learning": "Learning real-world e-commerce flows, secure payment integration, and practical logistics management."
         },
         {
           "id": "khabai-tech-system",
@@ -860,20 +973,20 @@
             "Enterprise",
             "Web App"
           ],
-          "url": "https://khabaitech.com/hrms/",
+          "url": "[https://khabaitech.com/hrms/](https://khabaitech.com/hrms/)",
           "github": "",
           "status": "Work Experience Project",
           "featured": false,
           "role": "Developer (Part-Time)",
           "image": "assets/images/projects/khabai-tech-system-preview.png",
           "shortDescription": "A business system developed for managing operations with modules like billing, wallet, ledger, automation, reporting, and admin controls.",
-          "detailedDescription": "An enterprise-grade business management system developed as part of my part-time role at Khabai Tech. Focused on modular architecture, database-driven operations, and clean admin controls.",
+          "detailedDescription": "An enterprise-grade business management system developed as part of my part-time role at Khabai Tech. Focused on building a Credit System, modular architecture, database-driven operations, and robust admin controls.",
           "features": [
             "Billing engine",
             "Wallet and ledger system",
             "Automation features",
             "Dynamic admin controls",
-            "Structured database handling",
+            "Structured database-driven workflow",
             "Charts and analytics with ApexCharts",
             "Modular backend structure",
             "Performance-focused improvements"
@@ -887,7 +1000,72 @@
             "ApexCharts"
           ],
           "metrics": [],
-          "learning": "Gained practical enterprise development experience \u2014 modular design, business logic, and performance optimization."
+          "learning": "Gained practical enterprise development experience — creating modular design patterns, applying business logic, and optimizing performance."
+        },
+        {
+          "id": "portfolio-project",
+          "name": "Dynamic Developer Portfolio",
+          "slug": "portfolio-project",
+          "type": "Dynamic Web Application",
+          "categories": [
+            "Web App",
+            "Featured"
+          ],
+          "url": "[https://abhishek.docsansar.com/](https://abhishek.docsansar.com/)",
+          "github": "[https://github.com/tabhishek0001/portfolio](https://github.com/tabhishek0001/portfolio)",
+          "status": "Live",
+          "featured": true,
+          "role": "Developer",
+          "image": "assets/images/projects/portfolio-preview.png",
+          "shortDescription": "A fully dynamic, JSON-driven developer portfolio featuring theme toggles, project filtering, and automated content generation.",
+          "detailedDescription": "I created/rebuilt a dynamic developer portfolio powered entirely by a central JSON data structure. This ensures highly maintainable content without digging into HTML. Deployed to GitHub Pages with a custom domain.",
+          "features": [
+            "JSON-based dynamic content structure",
+            "Responsive design with dark/light mode toggle",
+            "Project filters and categorized skills",
+            "Project details modal",
+            "Contact form with fallback mechanisms",
+            "GitHub deployment with custom domain",
+            "SEO optimization and OG image support",
+            "Dynamic portfolio content management idea"
+          ],
+          "tech": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "JSON"
+          ],
+          "metrics": [],
+          "learning": "Mastered JSON data handling on the frontend, DOM manipulation, custom deployment configurations, and metadata structuring."
+        },
+        {
+          "id": "eduvista",
+          "name": "EduVista (Team LitEdu)",
+          "slug": "eduvista",
+          "type": "Hackathon Project",
+          "categories": [
+            "Hackathon",
+            "Web App"
+          ],
+          "url": "",
+          "github": "",
+          "status": "Completed",
+          "featured": false,
+          "role": "Team Member",
+          "image": "assets/images/projects/eduvista-preview.png",
+          "shortDescription": "Project developed as part of the Smart India Hackathon (SIH) 2025 alongside Team LitEdu.",
+          "detailedDescription": "Collaborated with Team LitEdu to conceptualize and develop EduVista for the Smart India Hackathon 2025, applying quick problem-solving and rapid prototyping skills under competitive constraints.",
+          "features": [
+            "Hackathon prototype development",
+            "Collaborative teamwork",
+            "Educational problem-solving approach"
+          ],
+          "tech": [
+            "Web Technologies",
+            "Database Design"
+          ],
+          "metrics": [],
+          "learning": "Learned the dynamics of fast-paced collaborative development and translating immediate ideas into functional logic during a hackathon."
         },
         {
           "id": "utility-tools",
@@ -905,13 +1083,14 @@
           "role": "Developer",
           "image": "assets/images/projects/utility-tools-preview.png",
           "shortDescription": "A collection of practical web tools: QR generator, calculators, converters, and productivity utilities built for everyday use.",
-          "detailedDescription": "A set of useful, practical web tools designed to help students and users with everyday tasks. Clean UI, fast performance, and simple to use.",
+          "detailedDescription": "A set of useful, practical web tools designed to help students and users with everyday tasks. Built with clean UI, fast performance, and a simple-to-use interface.",
           "features": [
             "QR code generator",
-            "Age calculator",
-            "Temperature converter",
-            "Productivity utilities",
-            "Simple and responsive UI"
+            "Calculators",
+            "Converters",
+            "Productivity tools",
+            "Simple and responsive UI",
+            "Practical tools for everyday users"
           ],
           "tech": [
             "HTML",
@@ -920,7 +1099,7 @@
             "PHP"
           ],
           "metrics": [],
-          "learning": "Focused on building single-purpose tools with clean UX and practical value."
+          "learning": "Focused on building single-purpose tools with clean UX and providing immediate practical value."
         }
       ]
     },
@@ -935,7 +1114,7 @@
           "projectId": "docsansar",
           "title": "Building Doc Sansar: From Idea to 20K+ Users",
           "problem": "Students often struggle to find organized study materials in one place. Existing platforms were either too complex, required payment, or didn't cater to Indian university students specifically.",
-          "goal": "Build a platform where students can access, upload, and share academic resources easily \u2014 free, organized, and student-friendly.",
+          "goal": "Build a platform where students can access, upload, and share academic resources easily — free, organized, and student-friendly.",
           "role": "I handled everything: planning, development, database structure, UI design, backend logic, upload workflow, verification system, SEO, and continuous improvement.",
           "challenges": [
             "Organizing diverse study materials properly across categories",
@@ -944,7 +1123,7 @@
             "Improving visibility through SEO without paid tools",
             "Maintaining performance and usability as content grew"
           ],
-          "solution": "Built a categorized platform with upload management, admin verification workflow, file preview, search functionality, user accounts, and SEO-friendly URL and content structure.",
+          "solution": "Built a categorized platform with upload management, admin verification workflow, file preview, search functionality, user accounts, and an SEO-friendly URL and content structure.",
           "impact": [
             "Ranked on Google within 7 days of launch",
             "Reached 20K+ yearly users organically",
@@ -952,7 +1131,7 @@
             "10K+ clicks in a single month through Google Search",
             "Started generating AdSense revenue as a self-built product"
           ],
-          "learning": "This project gave me deep practical understanding of product building, user needs, SEO, database design, content moderation, and the continuous improvement mindset needed to run a real platform.",
+          "learning": "This project gave me a deep practical understanding of product building, user needs, SEO, database design, content moderation, and the continuous improvement mindset needed to run a real platform.",
           "tech": [
             "PHP",
             "MySQL",
@@ -977,8 +1156,8 @@
           "description": "Founded and developed a live EdTech platform from scratch, now serving 20K+ yearly users.",
           "icon": "globe",
           "category": "Project",
-          "date": "2023",
-          "proof": "https://www.docsansar.com"
+          "date": "2022-2023",
+          "proof": "[https://www.docsansar.com](https://www.docsansar.com)"
         },
         {
           "id": "a2",
@@ -991,7 +1170,7 @@
         {
           "id": "a3",
           "title": "10,000+ Clicks in One Month",
-          "description": "Achieved 10K+ clicks in a single month through organic search \u2014 without paid advertising.",
+          "description": "Achieved 10K+ clicks in a single month through organic search — without any paid advertising.",
           "icon": "trending-up",
           "category": "Growth",
           "date": "2024"
@@ -1006,8 +1185,8 @@
         },
         {
           "id": "a5",
-          "title": "Hackathon Winner",
-          "description": "Won the GDG Patna Mini Web Hackathon, competing with other student developers.",
+          "title": "Winner – GDG Patna Mini Web Hackathon",
+          "description": "Won the GDG Patna Mini Web Hackathon, competing with other talented student developers.",
           "icon": "award",
           "category": "Competition",
           "date": "2024"
@@ -1015,30 +1194,44 @@
         {
           "id": "a6",
           "title": "AdSense Revenue from Self-Built Platform",
-          "description": "Started earning through Google AdSense from Doc Sansar \u2014 a platform entirely planned, built, and managed by me.",
+          "description": "Started earning through Google AdSense from Doc Sansar — a platform entirely planned, built, and managed by me.",
           "icon": "dollar-sign",
           "category": "Milestone"
         },
         {
           "id": "a7",
-          "title": "GDG DevFest Participation",
-          "description": "Participated in GDG DevFest and other technical events to stay updated with the developer community.",
+          "title": "Technical Event Participation",
+          "description": "Participated in events like GDG DevFest Patna and Google Cloud Community Day Bhopal to stay connected with the developer community.",
           "icon": "calendar",
           "category": "Community"
         },
         {
           "id": "a8",
-          "title": "Multiple Internships During Diploma",
-          "description": "Completed internship programs during diploma, gaining exposure to practical development and professional environments.",
+          "title": "Completed Internships During Diploma",
+          "description": "Completed internship programs during my diploma, gaining early exposure to practical development and professional environments.",
           "icon": "briefcase",
           "category": "Learning"
         },
         {
           "id": "a9",
           "title": "500+ Platform Uploads",
-          "description": "Doc Sansar now hosts 500+ user-uploaded and verified study materials.",
+          "description": "Doc Sansar successfully managed, verified, and hosted 500+ user-uploaded academic materials.",
           "icon": "upload",
           "category": "Platform"
+        },
+        {
+          "id": "a10",
+          "title": "Created Dynamic Portfolio Architecture",
+          "description": "Created and rebuilt a dynamic developer portfolio driven by JSON and published it via GitHub Pages to a custom domain.",
+          "icon": "layout",
+          "category": "Project"
+        },
+        {
+          "id": "a11",
+          "title": "Built Multiple Real-World Projects Independently",
+          "description": "Independently conceptualized, designed, and developed several real-world web applications and utility tools.",
+          "icon": "code",
+          "category": "Project"
         }
       ]
     },
@@ -1054,9 +1247,9 @@
           "degree": "Bachelor of Technology",
           "branch": "Computer Science Engineering",
           "institute": "Technocrats Institute of Technology",
-          "location": "India",
+          "location": "Bhopal, India",
           "status": "Pursuing",
-          "duration": "2023 \u2013 2027",
+          "duration": "2023 – 2027",
           "expectedGraduation": "2027",
           "grade": "",
           "icon": "graduation-cap",
@@ -1064,8 +1257,8 @@
         },
         {
           "id": "diploma",
-          "degree": "Diploma",
-          "branch": "Computer Science Engineering",
+          "degree": "Diploma in Computer Science Engineering",
+          "branch": "Computer Science",
           "institute": "Government Polytechnic, Patna-7",
           "location": "Bihar, India",
           "status": "Completed",
@@ -1073,6 +1266,28 @@
           "cgpa": "8.63",
           "grade": "CGPA: 8.63",
           "icon": "award"
+        },
+        {
+          "id": "blis",
+          "degree": "Bachelor of Library & Information Science",
+          "branch": "Library Science",
+          "institute": "",
+          "location": "India",
+          "status": "Completed",
+          "duration": "",
+          "grade": "",
+          "icon": "book"
+        },
+        {
+          "id": "dca",
+          "degree": "Diploma in Computer Applications",
+          "branch": "Computer Applications",
+          "institute": "Maa Bhawani",
+          "location": "Bihar, India",
+          "status": "Completed",
+          "duration": "",
+          "grade": "",
+          "icon": "monitor"
         },
         {
           "id": "intermediate",
@@ -1092,7 +1307,7 @@
           "location": "Bihar, India",
           "status": "Completed",
           "grade": "85.6%",
-          "icon": "book"
+          "icon": "file-text"
         }
       ]
     },
@@ -1108,7 +1323,7 @@
           "fullName": "Database Management Systems",
           "icon": "database",
           "whyILikeIt": "It helps me understand how data is stored, connected, managed, and retrieved in real applications.",
-          "whereApplied": "I used DBMS concepts in Doc Sansar and other projects for managing users, study materials, uploads, categories, and system data."
+          "whereApplied": "I applied DBMS concepts deeply in Doc Sansar, UncleJee Store, and Khabai Tech systems for managing users, study materials, uploads, categories, ledgers, and system data."
         },
         {
           "id": "oops",
@@ -1116,7 +1331,7 @@
           "fullName": "Object-Oriented Programming",
           "icon": "layers",
           "whyILikeIt": "It helps in writing structured, reusable, and maintainable code.",
-          "whereApplied": "I apply OOP concepts while creating modular code and organizing project logic."
+          "whereApplied": "I continuously apply OOP concepts to create modular project logic and an organized code structure for cleaner backends."
         },
         {
           "id": "se",
@@ -1124,7 +1339,7 @@
           "fullName": "Software Engineering",
           "icon": "git-branch",
           "whyILikeIt": "It teaches how to plan, build, test, improve, and maintain software properly.",
-          "whereApplied": "I use this approach while building features, testing them, improving them, and maintaining real projects."
+          "whereApplied": "I strictly use this approach while planning features, testing workflows, improving performance, and maintaining real-world projects."
         }
       ]
     },
@@ -1136,24 +1351,35 @@
       "items": [
         {
           "id": "sap-abap",
-          "title": "SAP Certified \u2013 Backend Developer (ABAP Cloud Beta)",
+          "title": "SAP Certified – Backend Developer (ABAP Cloud Beta)",
           "issuer": "SAP",
           "category": "Cloud / Backend",
           "date": "2026",
-          "credentialLink": "https://www.credly.com/badges/cc002cf8-c5e2-43b6-bce8-5d0941ab2035",
-          "image": "https://www.docsansar.com/uploads/vault/5fa10ce61bfd/Screenshot_2026-06-16_105358.png",
+          "credentialLink": "[https://www.credly.com/badges/cc002cf8-c5e2-43b6-bce8-5d0941ab2035](https://www.credly.com/badges/cc002cf8-c5e2-43b6-bce8-5d0941ab2035)",
+          "image": "[https://www.docsansar.com/uploads/vault/5fa10ce61bfd/Screenshot_2026-06-16_105358.png](https://www.docsansar.com/uploads/vault/5fa10ce61bfd/Screenshot_2026-06-16_105358.png)",
           "description": "Certification covering SAP ABAP Cloud development and backend systems.",
           "visible": true
         },
         {
           "id": "ibm-ai",
-          "title": "IBM SkillsBuild \u2013 AI, LLM & LangChain",
+          "title": "IBM SkillsBuild – AI, LLM, RAG & LangChain",
           "issuer": "IBM SkillsBuild",
           "category": "Artificial Intelligence",
           "date": "23-09-2025",
-          "credentialLink": "https://www.credly.com/earner/earned/badge/1ca4b411-98ab-4dc0-8d5d-4913a0f938d8",
-          "image": "https://images.credly.com/size/680x680/images/73c08e76-eb9c-4c03-92da-3dad49e99e5a/Getting_Started_With_Artificial_Intelligence_Badge.png",
+          "credentialLink": "[https://www.credly.com/earner/earned/badge/1ca4b411-98ab-4dc0-8d5d-4913a0f938d8](https://www.credly.com/earner/earned/badge/1ca4b411-98ab-4dc0-8d5d-4913a0f938d8)",
+          "image": "[https://images.credly.com/size/680x680/images/73c08e76-eb9c-4c03-92da-3dad49e99e5a/Getting_Started_With_Artificial_Intelligence_Badge.png](https://images.credly.com/size/680x680/images/73c08e76-eb9c-4c03-92da-3dad49e99e5a/Getting_Started_With_Artificial_Intelligence_Badge.png)",
           "description": "Certifications covering AI fundamentals, Large Language Models, Retrieval-Augmented Generation, and LangChain framework.",
+          "visible": true
+        },
+        {
+          "id": "sql-basic",
+          "title": "SQL (Basic) Certificate",
+          "issuer": "HackerRank",
+          "category": "Database Management",
+          "date": "2026",
+          "credentialLink": "",
+          "image": "",
+          "description": "Demonstrates competency in writing fundamental SQL queries for database interaction.",
           "visible": true
         },
         {
@@ -1228,13 +1454,27 @@
           "title": "Placement & Aptitude Training",
           "organization": "",
           "duration": "",
-          "description": "Training covering aptitude, reasoning, verbal ability, and programming problem-solving for placement preparation.",
+          "description": "Training covering aptitude, reasoning, verbal ability, spoken English, and programming problem-solving for placement preparation.",
           "skills": [
             "Aptitude",
             "Reasoning",
-            "Problem Solving"
+            "Problem Solving",
+            "Communication Improving"
           ],
           "type": "Training"
+        },
+        {
+          "id": "nptel-dsa",
+          "title": "NPTEL: Data Structure and Algorithms using Java",
+          "organization": "NPTEL",
+          "duration": "2026",
+          "description": "Certification course focusing on algorithms and structural data management applying Java concepts.",
+          "skills": [
+            "Java",
+            "DSA",
+            "Algorithms"
+          ],
+          "type": "Course"
         }
       ]
     },
@@ -1311,7 +1551,7 @@
       "order": 16,
       "title": "How I Work",
       "subtitle": "My approach to building useful software",
-      "mainLine": "I believe the best way to learn technology is by building useful things. My approach is simple: understand the problem, build a practical solution, test it properly, improve it, and scale it.",
+      "mainLine": "I believe the best way to learn technology is by building useful things. My approach is simple: understand the problem, build a practical solution, test it properly, improve it, keep the user in mind, and prefer real-world implementation over only theory.",
       "process": [
         {
           "step": 1,
@@ -1328,25 +1568,25 @@
         {
           "step": 3,
           "title": "Build",
-          "description": "Build a clean, modular, and maintainable solution step by step.",
+          "description": "Learn by building. Construct a clean, modular, and maintainable solution.",
           "icon": "code-2"
         },
         {
           "step": 4,
           "title": "Test",
-          "description": "Test with real scenarios, catch edge cases, and validate thoroughly.",
+          "description": "Test properly with real scenarios, catch edge cases, and validate thoroughly.",
           "icon": "check-circle"
         },
         {
           "step": 5,
           "title": "Improve",
-          "description": "Continuously improve based on real feedback, performance, and needs.",
+          "description": "Improve continuously based on real feedback, performance, and needs.",
           "icon": "trending-up"
         },
         {
           "step": 6,
           "title": "Scale",
-          "description": "Scale with clean structure when needed \u2014 no quick hacks.",
+          "description": "Scale with clean structure when needed — no quick hacks.",
           "icon": "maximize-2"
         }
       ]
@@ -1364,7 +1604,7 @@
         },
         {
           "label": "Respect",
-          "description": "I respect people's time, effort, and trust \u2014 always.",
+          "description": "I respect people's time, effort, and trust — always.",
           "icon": "heart"
         },
         {
@@ -1384,13 +1624,23 @@
         },
         {
           "label": "Growth",
-          "description": "I actively seek to grow \u2014 technically, professionally, and personally.",
+          "description": "I actively seek to grow — technically, professionally, and personally.",
           "icon": "trending-up"
         },
         {
           "label": "Responsibility",
           "description": "I own my work, my outcomes, and my mistakes.",
           "icon": "user-check"
+        },
+        {
+          "label": "Integrity",
+          "description": "Not cheating or taking shortcuts; sticking to the correct path.",
+          "icon": "check-square"
+        },
+        {
+          "label": "Staying Grounded",
+          "description": "Remaining humble no matter the progress.",
+          "icon": "anchor"
         }
       ]
     },
@@ -1403,7 +1653,7 @@
         {
           "title": "Strengthening Java Fundamentals",
           "icon": "coffee",
-          "description": "Building solid Java skills for stronger programming foundation."
+          "description": "Building solid Java skills for a stronger programming foundation."
         },
         {
           "title": "Problem Solving & DSA",
@@ -1418,7 +1668,7 @@
         {
           "title": "Communication Skills",
           "icon": "message-square",
-          "description": "Improving professional and technical communication."
+          "description": "Improving professional and technical spoken communication."
         },
         {
           "title": "Scalable Development Practices",
@@ -1428,7 +1678,12 @@
         {
           "title": "Enhancing Doc Sansar",
           "icon": "zap",
-          "description": "Continuously improving Doc Sansar's features, performance, and reach."
+          "description": "Continuously improving Doc Sansar and other live projects."
+        },
+        {
+          "title": "Placement Preparation",
+          "icon": "briefcase",
+          "description": "Preparing for placements and upcoming professional opportunities."
         }
       ]
     },
@@ -1447,7 +1702,7 @@
         {
           "year": "2022",
           "title": "Built Doc Sansar",
-          "description": "Planned and developed Doc Sansar during diploma \u2014 a real EdTech platform from scratch.",
+          "description": "Planned and developed Doc Sansar during my diploma — a real EdTech platform from scratch.",
           "icon": "globe"
         },
         {
@@ -1471,19 +1726,25 @@
         {
           "year": "2024",
           "title": "Started B.Tech Journey",
-          "description": "Enrolled in B.Tech CSE, continuing to combine academics with real-world development.",
+          "description": "Enrolled in B.Tech CSE at TIT, continuing to combine academics with real-world development.",
           "icon": "graduation-cap"
+        },
+        {
+          "year": "2024",
+          "title": "Tech Community Events",
+          "description": "Registered and attended developer conferences like DevFest Patna to stay involved in the ecosystem.",
+          "icon": "users"
         },
         {
           "year": "2025",
           "title": "Part-Time Developer at Khabai Tech",
-          "description": "Started part-time full stack web development work on real business systems.",
+          "description": "Started part-time full stack web development work on real business and enterprise systems.",
           "icon": "building"
         },
         {
           "year": "Now",
           "title": "Improving & Building",
-          "description": "Strengthening Java, DSA, full stack skills while continuing to work on real projects.",
+          "description": "Strengthening Java, DSA, full stack skills while continuing to work on live platforms and prepare for professional roles.",
           "icon": "rocket"
         }
       ]
@@ -1491,7 +1752,7 @@
     "testimonials": {
       "visible": true,
       "order": 20,
-      "title": "Recommendations",
+      "title": "Feedback & Impressions",
       "subtitle": "Feedback based on projects, learning, and practical work",
       "placeholder": "Recommendations will be added soon.",
       "items": [
@@ -1513,7 +1774,7 @@
           "name": "Student User",
           "role": "Platform User",
           "company": "Doc Sansar",
-          "message": "Doc Sansar is useful for students because it keeps study materials organized and easy to access. The platform is simple to use and helps students find academic resources without wasting much time.",
+          "message": "Doc Sansar is extremely useful for students because it keeps study materials organized and easy to access. The platform is simple to use and helps students find academic resources without wasting much time.",
           "visible": true
         },
         {
@@ -1526,7 +1787,7 @@
       ]
     },
     "blog": {
-      "visible": false,
+      "visible": true,
       "order": 21,
       "title": "Technical Insights",
       "subtitle": "Articles and project write-ups coming soon",
@@ -1539,7 +1800,50 @@
         "Problem Solving",
         "Technology"
       ],
-      "items": []
+      "items": [
+        {
+          "id": "draft-1",
+          "title": "How I Built Doc Sansar as a Real Student Platform",
+          "status": "Planned",
+          "category": "Projects",
+          "date": "To be updated"
+        },
+        {
+          "id": "draft-2",
+          "title": "What I Learned from Building Database-Driven Web Applications",
+          "status": "Planned",
+          "category": "Web Development",
+          "date": "To be updated"
+        },
+        {
+          "id": "draft-3",
+          "title": "My Practical Learning Journey from Student to Web Developer",
+          "status": "Draft",
+          "category": "Learning Journey",
+          "date": "To be updated"
+        },
+        {
+          "id": "draft-4",
+          "title": "Why Practical Projects Matter More Than Only Theory",
+          "status": "Planned",
+          "category": "Technology",
+          "date": "To be updated"
+        },
+        {
+          "id": "draft-5",
+          "title": "How I Approach Debugging and Problem Solving",
+          "status": "Planned",
+          "category": "Problem Solving",
+          "date": "To be updated"
+        },
+        {
+          "id": "draft-6",
+          "title": "My Current Focus: Java, DSA, and Stronger Fundamentals",
+          "status": "Planned",
+          "category": "Placement Preparation",
+          "date": "To be updated"
+        }
+      ]
     },
     "resume": {
       "visible": true,
@@ -1551,9 +1855,9 @@
         "3+ years practical web development experience",
         "Real-world project exposure: Doc Sansar with 20K+ yearly users",
         "Full Stack Web Development: PHP, MySQL, HTML, CSS, Bootstrap, jQuery, AJAX",
-        "Database-driven application development",
-        "Payment gateway and API integration experience",
-        "Problem-solving mindset with continuous learning approach"
+        "Database-driven application development and administration",
+        "Payment gateway and third-party API integration experience",
+        "Problem-solving mindset with a dedicated continuous learning approach"
       ]
     },
     "contact": {
@@ -1561,7 +1865,7 @@
       "order": 23,
       "title": "Get In Touch",
       "subtitle": "Open to opportunities, collaborations, and conversations",
-      "intro": "Whether you have a project in mind, an opportunity to share, or just want to connect \u2014 I'd love to hear from you. I am currently open to internships, junior developer roles, freelance projects, and collaborations.",
+      "intro": "Whether you have a project in mind, an opportunity to share, or just want to connect — I'd love to hear from you. I am currently open to internships, junior developer roles, freelance projects, and collaborations.",
       "formFields": [
         {
           "id": "name",
